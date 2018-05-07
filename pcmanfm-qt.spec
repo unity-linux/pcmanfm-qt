@@ -2,11 +2,9 @@
 %define libname %mklibname fm-qt %major
 %define devname %mklibname -d fm-qt
 
-%define rel 1
-
 Name:           pcmanfm-qt
 Version:        0.12.0
-Release:        %mkrel %rel
+Release:        2%{?dist}
 Source0:        http://downloads.lxqt.org/lxqt/%{version}/%{name}-%{version}.tar.xz
 Source1:	settings.conf
 Summary:        File manager for the LXQt desktop
