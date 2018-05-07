@@ -5,7 +5,7 @@
 Name:           pcmanfm-qt
 Version:        0.12.0
 Release:        2%{?dist}
-Source0:        http://downloads.lxqt.org/lxqt/%{version}/%{name}-%{version}.tar.xz
+Source0:        https://downloads.lxqt.org/downloads/%{name}/%{version}/%{name}-%{version}.tar.xz
 Source1:	settings.conf
 Summary:        File manager for the LXQt desktop
 URL:            http://lxqt.org/
